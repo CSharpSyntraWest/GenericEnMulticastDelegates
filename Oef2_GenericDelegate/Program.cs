@@ -14,7 +14,7 @@ namespace Oef2_GenericDelegate
         {
             return getal1 == getal2;
         }
-        static bool IsGelijk<T>(T param1, T param2)
+        static bool IsGelijk<T>(T param1, T param2) where T:IEquatable<T> //Om te zorgen dat de Equals van Student wordt uitgevoerd
         {
             return param1.Equals(param2);
         }
@@ -54,8 +54,8 @@ namespace Oef2_GenericDelegate
             //Demo Bug enkel bij Delegates
             //Dit werkt wel op gewoonlijke manier:
             Console.WriteLine($"IsGelijk(student1,student3) zonder delegate = " + student1.Equals(student3));
-            //!!!Opgelet BUG met delegate:
-           // Console.WriteLine($"IsGelijk(student1,student3) via delegate = " + del_stud(student1, student3));
+            //!!!Opgelet BUG met delegate: op te lossen met constraint where T:IEquatable<T>: werkt dan goed:
+            Console.WriteLine($"IsGelijk(student1,student3) via delegate = " + del_stud(student1, student3));
             Console.ReadKey();
         }
     }
