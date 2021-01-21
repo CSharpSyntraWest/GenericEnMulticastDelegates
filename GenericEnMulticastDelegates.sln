@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoGenericDelegate", "Demo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oef2_GenericDelegate", "Oef2_GenericDelegate\Oef2_GenericDelegate.csproj", "{473DBB51-9C8E-464F-99F3-E01ACF1FFD61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiCastDelegate", "MultiCastDelegate\MultiCastDelegate.csproj", "{4A136350-9228-4619-8DBA-ABA5E6764B25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{473DBB51-9C8E-464F-99F3-E01ACF1FFD61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{473DBB51-9C8E-464F-99F3-E01ACF1FFD61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{473DBB51-9C8E-464F-99F3-E01ACF1FFD61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A136350-9228-4619-8DBA-ABA5E6764B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A136350-9228-4619-8DBA-ABA5E6764B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A136350-9228-4619-8DBA-ABA5E6764B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A136350-9228-4619-8DBA-ABA5E6764B25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
